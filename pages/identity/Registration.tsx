@@ -317,7 +317,7 @@ const Registration: React.FC<Props> = props => {
                                                             name="name"
                                                             placeholder="Full Name"
                                                             icon="faCoffee"
-                                                            iconProp2 ="faCoffee"
+                                                            // iconProp2 ="faCoffee"
                                                             // icon ="fa-camera-retro"
                                                             error={errors.name}
                                                             formRef={register({

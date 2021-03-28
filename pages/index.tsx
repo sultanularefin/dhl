@@ -3,7 +3,7 @@ import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.css';
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
-import CreatePost from "./CreatePost";
+// import CreatePost from "./CreatePost";
 import Registration from "./identity/Registration";
 // import 'bootstrap/dist/css/bootstrap.css';
 export default function Home() {

@@ -18,7 +18,7 @@ export enum INPUT_TYPE {
 export interface Props {
     inputType: INPUT_TYPE,
     name: string,
-    iconProp2?: IconProp,
+    // iconProp2?: IconProp,
     icon?: string,
     value?: string | boolean | number,
     placeholder: string,
@@ -35,7 +35,7 @@ const InputControl: React.FC<Props> = ({
                                            name,
                                            placeholder,
                                            icon,
-                                           iconProp2: IconProp,
+                                           // iconProp2: IconProp,
                                            error={},
                                            handleChange,
                                            options,
